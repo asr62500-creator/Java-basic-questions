@@ -7,12 +7,12 @@ public class Factorial {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
-        int factorial = 1;
-        for (int i = 1; i <= n; i++) {
-            factorial *= i;
+        int fact = 1;
+        for (int i = n; i >=1; i--) {
+            fact *= i;
         }
 
-        System.out.println("Factorial of " + n + " is: " + factorial);
+        System.out.println("Factorial of " + n + " is: " + fact );
         sc.close(); 
     }
 }
