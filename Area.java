@@ -1,4 +1,14 @@
+class Rectangle
+{
+    int length;
+    int breadth;
 
+    Rectangle(int l, int b)
+    {
+        length = l;
+        breadth = b;
+    }
+}
 public class Area
 {
     // Method that receives a Rectangle object
@@ -17,17 +27,5 @@ public class Area
 
         // IMPLICIT / DIRECT PASSING
         calculateArea(new Rectangle(14, 5));
-    }
-}
-
-class Rectangle
-{
-    int length;
-    int breadth;
-
-    Rectangle(int l, int b)
-    {
-        length = l;
-        breadth = b;
     }
 }
